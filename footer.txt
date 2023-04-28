@@ -1,0 +1,48 @@
+<div width="100%" style="padding: 20px; background-color: black; text-align: center;">
+<a href="https://www.facebook.com/" style="padding-right: 15px;">
+<img src="fbicon.png" class="icon" alt="facebook icon">
+</a>
+<a href="https://www.instagram.com/">
+<img src="igicon.png" class="icon" alt="instagram icon">
+</a>
+<table width="100%" style="margin-top: 5px;">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 36%">
+</colgroup>
+<tr>
+<td></td>
+<td>
+<a href="page1.php">
+<button class="navbar" style="font-size: 12px; width: 80px;">HOME</button>
+</a>
+</td>
+<td>
+<a href="page2.php">
+<button class="navbar" style="font-size: 12px; width: 80px;">PRODUCT</button>
+</a>
+</td>
+<td>
+<a href="page3.php">
+<button class="navbar" style="font-size: 12px; width: 80px;">SERVICE</button>
+</a>
+</td>
+<td>
+<a href="page4.php">
+<button class="navbar" style="font-size: 12px; width: 80px;">CONTACT</button>
+</a>
+</td>
+</tr>
+</table>
+<p style="color: white; font-size: 12px; margin: 0; margin-top: 5px;">mao | mao | mao | mao | mao</p>
+</div>
+<div style="background-color: #ffbf91;">
+<p style="text-align: center; font-size: 11px; font-weight: bold; margin: 0px; padding: 10px;">Mao &#169; 2023</p>
+</div>
+
+</body>
+</html>

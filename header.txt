@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>Mao Salon &amp; Mart</title>
+<link rel="icon" href="logopaw.png">
+<style>
+.navbar {
+width: 100px;
+border: none;
+color: white;
+background-color: transparent;
+font-size: 14px;
+font-weight: bold;
+}
+.navbar:hover {
+    color: #fbbc93;
+}
+.navbarbtn {
+    margin: 10px;
+    padding: 12px;
+    width: 130px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.navbarbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.navbarbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.navbarbtn:hover span {
+  padding-right: 20px;
+}
+.navbarbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.icon {
+    width: 25px;
+}
+</style>
+</head>
+<body style="margin: 0px;">
+<table width="100%" style="background-color: black; height: 70px; z-index: 999; position: fixed; top: 0;">
+<colgroup>
+<col style="width: 45%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 15%">
+</colgroup>
+<tbody>
+<tr>
+<td style="color: white;">
+<img src="logopaw.png" style="width: 40px; padding-left: 20px;" alt="Paw logo">
+</td>
+<td>
+<a href="page1.php">
+<button class="navbar">HOME</button>
+</a>
+</td>
+<td>
+<a href="page2.php">
+<button class="navbar">PRODUCT</button>
+</a>
+</td>
+<td>
+<a href="page3.php">
+<button class="navbar">SERVICE</button>
+</a>
+</td>
+<td>
+<a href="page4.php">
+<button class="navbar">CONTACT</button>
+</a>
+</td>
+<td style="text-align: right; padding-right: 50px;">
+<a href="https://www.facebook.com/" style="padding-right: 15px;">
+<img src="fbicon.png" class="icon" alt="facebook icon">
+</a>
+<a href="https://www.instagram.com/">
+<img src="igicon.png" class="icon" alt="instagram icon">
+</a>
+</td>
+</tr>
+</tbody>
+</table>
